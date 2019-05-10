@@ -15,18 +15,31 @@
         <div class="row mt-5">
             <h1>Tip Calculator</h1>
         </div>
-        <div class="row">
+        <div class="row my-3">
             <h3>How much was the bill?</h3>
             <div>
-                <input id='amount' type="number" name="check" value=0>
+                <input id='amount' type="number" name="check">
             </div>
+        </div>
+        <div class="row">
             <h5>Choos a percentage:</h5>
+        </div>
+        <div class="row my-3">
             <select id='percent' onchange='value'>
                 <option value=15>15</option>
                 <option value=20>20</option>
                 <option value=25>25</option>
             </select>
+        </div>
+        <div class='row my-3'>
             <button type="button" onclick="calculateTip()">Click Me!</button>
+        </div>
+        <div class="row">
+            <h1>Tip is:</h1>
+        </div>
+        <div class="row">
+            <h2></h2>
+        </div>
         </div>
     </div>
 </body>
